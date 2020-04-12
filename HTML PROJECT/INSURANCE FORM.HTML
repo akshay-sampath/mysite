@@ -1,0 +1,140 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=200,"> 
+<title>SHUTTER STOCK</title>
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: white;  
+}  
+.container {  
+    padding: 50px;  
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/53/473/192/macro-background-bank-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}  
+  
+input[type=text], textarea {  
+  width: 40%;  
+  padding: 15px 20px;  
+  margin: 5px 0 22px 0;    
+  border: none;  
+  background: white;  
+}  
+input[type=text]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 20px 50px;  
+         }  
+hr {  
+  border: 1px solid black;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: orange;  
+  color: white;  
+  padding: 20px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 40%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1 style="color:white;"> INSURANCE APPLICATION FORM (SHUTTER STOCK) </h1> </center>  
+  <hr>  
+  <label style="color:white;"> Firstname </label><br>
+<input type="text" name="firstname" placeholder= "Firstname"><br>   
+<label style="color:white;"> Middlename: </label><br>  
+<input type="text" name="middlename" placeholder="Middlename"><br>  
+<label style="color:white;"> Lastname: </label><br> 
+<input type="text" name="lastname" placeholder="Lastname" ><br>
+<div>  
+<label style="color:white;"><br>  
+INSURANCES AVAILABLE :  
+</label>   
+  
+<select>
+<option value="Select">Select Insurance</option>  
+<option value="Life insurance">Life Insurance</option>  
+<option value="Property insurance">Property Insurance</option>  
+<option value="Marine Insurance">Marine Insurance</option>  
+<option value="Fire insurance">Fire Insurance</option>  
+<option value="Liability insurance">Liability Insurance</option>  
+<option value="Health insurance">Health Insurance</option>
+<option value="Car insurance">Car Insurance</option>  
+</select><br><br>
+<label style="color:white;"><br>  
+HOW DO YOU WANT TO DEPOSIT THE MONEY/FUND :  
+</label>   
+  
+<select>
+<option value="Select">Select Duration</option>  
+<option value="monthly">Monthly</option>  
+<option value="After every 3 months">After Every 3 Months</option>  
+<option value="after every 6 months">After Every 6 Months</option>  
+<option value="after every 9 months">After Every 9 Months</option>  
+<option value="yearly">Yearly</option>  
+</select><br><br>    
+</div>  
+<div>  
+<label style="color:white;">
+Gender :  
+</label><br>   
+<input type="radio" value="Male" name="gender" >
+<label for="Male" style="color:white;"><b>Male</b></label>   
+<input type="radio" value="Female" name="gender"> 
+<label for="Female" style="color:white;"><b>Female</b></label>  
+<input type="radio" value="Other" name="gender">
+<label for="Other" style="color:white;"><b>Other</b></label>  
+</div>  
+<label style="color:white;">   
+Phone :  
+</label><br>    
+<input type="text" name="phone" placeholder="Phone no."><br>
+<label style="color:white;">   
+Secondary Phone Number :  
+</label><br>    
+<input type="text" name="phone" placeholder="Phone no."><br>
+<label style="color:white;">   
+Aadhar Number:  
+</label><br>   
+<input type="text" name="AAdhar" placeholder="Enter your aadhar no."><br> 
+<label style="color:white;">  
+Current Address :
+</label><br>  
+<textarea cols="20" rows="5" placeholder="Current Address">  
+</textarea><br>
+<label style="color:white;">
+Nationality :  
+</label><br>    
+<input type="text" name="nationality" placeholder="Nationality."><br>
+<label style="color:white;">
+Occupation :  
+</label><br>    
+<input type="text" name="Occupation" placeholder="Occupation."><br>   
+ <label for="email" style="color:white;"><b>Email</b></label><br>  
+ <input type="text" placeholder="Enter Email"><br>
+ <label for="annual income" style="color:white;"><b>Annual Income</b></label><br>  
+ <input type="text" placeholder="Enter your annual income"><br>  
+    <label for="Amount" style="color:white;"><b>Amount To Be Deposited</b></label><br>  
+    <input type="text" placeholder="Minimum amount is 500 rs."><br>
+<div>    
+<input type="radio" value="Agreement" name="agreement of our bank" >
+<label for="Agreement" style="color:white;"><b>I agree to the terms and policy of Shutter Stock and I authorize Shutter Stock to call me or SMS with reference to my application. </b></label><br>  
+  
+</div>    
+    <button type="submit" class="registerbtn">Apply For Insurance</button>    
+</form>  
+</body>  
+</html>  
