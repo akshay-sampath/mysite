@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+
+.header{
+	background:#000;
+	color:#fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.header button{
+	height: 40px;
+	width: 60px;
+	background: transparent;
+	color: #fff;
+	border-radius: 3em;
+	border:2px solid silver;
+	border-bottom: none;
+	margin:20px;
+	margin-top:40px;
+}
+ .signin:hover,
+ .signout:hover{
+	background-color:white;
+	color:black;
+}
+.title{
+	font-family: 'Cinzel Decorative',cursive;
+    color:olive;
+    padding-left: 30px;
+    font-size:40px; 
+}
+.icons{
+  padding-left:30pc;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 30px;
+}
+.icons a{
+	text-decoration: none;
+	color: #fff;
+}
+.fa{
+	margin:10px;
+	padding-top: 40px;
+	padding-right: 40px;
+}
+.fa-cart-arrow-down{
+text-decoration: none;
+color: #fff;
+}
+.searchbox{
+	border-radius: 40px;
+
+}
+.search-bar{
+    width: 250px;
+   border-radius: 3em;
+   height: 40px;
+   border-color: silver;
+}
+.search-link{
+	text-decoration: none;
+	color:#fff;
+
+}
+.poster{
+	padding-top: 30px;
+}
+.poster img{
+	width:77%;
+	padding-left: 190px;
+	height:550px;
+}
+.category{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left:110px;
+}
+.category div{
+	border:2px solid silver;
+	border-radius: 5em;
+	border-bottom: none;
+	border-top: none;
+	background: orange;
+	display:flex;
+	flex-wrap: wrap;
+	margin:50px;
+}
+.category img{
+	border-radius: 12em;
+	height:200px;
+	width:200px;
+}
+.category p{
+	text-align: center;
+	font-weight: bolder;
+	font-style: all;
+}
+.category a{
+	text-decoration: none;
+	color:black;
+}
+.footer{
+	background:black;
+	display: flex;
+}
+.footer h1{
+	font-family: 'Cinzel Decorative',cursive;
+    color:olive;
+    padding-left: 30px;
+    font-size:40px; 
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer p{
+ color: #fff;
+ padding-left:70pc; 
+}
+
+/*---------------------------------------------------vegetables and fruits----------------------------*/
+
+.container{
+	padding-left: 90px;
+	padding-top: 40px;
+}
+.fa-truck{
+	font-size: 20px;
+	border-bottom: 3px solid black;
+	border-radius: 1em;
+	padding-left: 20px;
+
+}
+.products{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.products div{
+    border: 2px solid black;
+	height: 300px;
+	margin-top: 40px;
+	padding-left: 20px;
+	border-radius: 2em;
+}
+.products img{
+	height: 150px;
+	width: 150px;
+	padding-top: 10px;
+	padding-right: 10px;
+	border-radius: 6em;
+	
+}
+.products div:hover{
+	background-color: grey;
+	transition:0.3s;
+}
+.products button{
+	height: 35px;
+	background:transparent;
+	border-radius: 1em;
+	margin-left: 70px;
+
+}
+.products button:hover{
+  background-color: orangered;
+  color:black;
+
+}
+.products p{
+	font-weight: bolder;
+	font-size: 16px;
+}
+select{
+	border-radius: 1em;
+	border-color: green;
+	background: transparent;
+	border-bottom: none;
+	width:50px;
+	height:30px;
+	top: -10px;
+}
+select:hover{
+	 background-color: orangered;
+  color:black;
+}
+.products i{
+	height: 10px;
+	width:10px;
+}
+aside{
+	color:orangered;
+}
+span{
+	color:red ;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+
+/*------------------------------------------------cart-------------------------------------------------------*/
+
+.cart{
+	display: flex;
+	flex-direction: row;
+}
+.cart-items{
+	width:75%;
+}
+.totalitems {
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	
+ }
+ 
+ .quantities{
+	 display:flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 padding-left: 50px;
+	 border-bottom:2px solid sienna;
+ } 
+ .fa{
+	 padding-right: 5px;
+	 padding-left: 5px;
+	 font-size: 20px;
+	 cursor:pointer;
+ 
+ }
+ .about{
+	 padding-left: 70px;
+	 font-size: 20px;
+	 font-weight: bold;
+	 font-family: 'Times New Roman';
+	 padding-top: 20px;
+	 border-bottom:2px solid sienna;
+ }
+ .numberofitem{
+	 font-weight: bolder;
+	 padding-top: 60px;
+ }
+ img{
+   height: 120px;  
+   width: 120px; 
+ }
+ .price,.totalprice{
+	 font-size: 20px;
+	 font-weight: bolder;
+	 padding-left: 80px;
+	 padding-top: 50px;
+	 border-bottom:2px solid sienna;
+ }
+ .priceofitem{
+	 border:1.5px solid black;
+	 padding-left: 7px;
+	 padding-right: 2px;
+	 border-radius: 2em;
+	 background:linear-gradient(lightgrey,darkgrey);
+ }
+ .totalprice{
+	 padding-top: 25px;
+ }
+ .totalpriceofitem{
+	 font-size: 40px;
+	 
+ }
+ .remove{
+	 height: 35px;
+	 background:transparent;
+	 border-radius: 1em;
+	 margin-left: 70px;
+	 margin-top: 90px;
+	 margin-left: 190px;
+ }
+  .remove:hover{
+   background-color: orangered;
+   color:black;
+ 
+ }
+ .totalamount{
+	 width:25%;
+	 display: flex;
+	 flex-direction: left;
+	 height:40%;
+ }
+
+.baskettotalcontainer{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+ 
+.baskettitle{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Times New Roman';
+}
+
+.baskettotal{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
